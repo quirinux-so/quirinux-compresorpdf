@@ -11,7 +11,7 @@
 
 **Compresor PDF** es una herramienta gráfica, multilingüe y offline para reducir el tamaño de archivos PDF utilizando **Ghostscript**.
 
-Pensado para usuarios de GNU/Linux, especialmente en entornos educativos o de oficina, permite seleccionar un PDF y generar una versión comprimida fácilmente.
+Pensado para usuarios de GNU/Linux, especialmente en entornos educativos o de oficina, permite seleccionar un PDF y generar una copia de peso reducido.
 
 ✅ Características:
 
@@ -32,7 +32,7 @@ apt install ghostscript python3-tk
 
 ```bash
 git clone https://github.com/quirinux-so/quirinux-compresorpdf.git
-cd compresorpdf
+cd quirinux-compresorpdf/usr/local/bin
 python3 compresorpdf.py
 ```
 
@@ -63,7 +63,7 @@ Autor: Charlie Martínez <cmartinez@quirinux.org>
 
 **PDF Compressor** is a graphical, multilingual, and offline tool to reduce PDF file sizes using **Ghostscript**.
 
-Designed for GNU/Linux users — especially in educational or office settings — it allows you to select a PDF and create a compressed version effortlessly.
+Designed for GNU/Linux users — especially in educational or office settings — it allows you to select a PDF and create a ligthweight version copy.
 
 ✅ Features:
 
@@ -84,7 +84,7 @@ apt install ghostscript python3-tk
 
 ```bash
 git clone https://github.com/quirinux-so/quirinux-compresorpdf.git
-cd compresorpdf
+cd quirinux-compresorpdf/usr/local/bin
 python3 compresorpdf.py
 ```
 
