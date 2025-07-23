@@ -1,0 +1,27 @@
+[Desktop Entry]
+Version=1.0
+
+Name=PDF Compressor
+Name[es]=Compresor PDF
+Name[gl_ES]=Compresor PDF
+Name[pt_PT]=Compressor PDF
+Name[pt_BR]=Compressor de PDF
+Name[fr]=Compresseur PDF
+Name[de]=PDF-Kompressor
+
+Comment=Reduce the size of a PDF
+Comment[es]=Reducir el peso de un PDF
+Comment[gl_ES]=Reducir o peso dun PDF
+Comment[pt_PT]=Reduzir o tamanho de um PDF
+Comment[pt_BR]=Reduzir o tamanho de um PDF
+Comment[fr]=Réduire la taille d'un PDF
+Comment[de]=Die Größe einer PDF-Datei reduzieren
+
+Exec=CompresorPDF
+Icon=/usr/share/icons/compresorpdf.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=PDF;
+Name[en]=PDF compressor
+Name[es_ES]=Compresor PDF

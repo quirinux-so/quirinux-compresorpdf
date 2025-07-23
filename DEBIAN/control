@@ -1,0 +1,10 @@
+Package: compresorpdf
+Version: 2.2.0
+Architecture: all
+Maintainer: Charlie Martinez <cmartinez@quirinux.org>
+Installed-Size: 257
+Depends: ghostscript, graphicsmagick
+Section: contrib/utils
+Priority: optional
+Description: Programa que permite reducir el 'peso' de un PDF
+ Programa que permite reducir el 'peso' de un PDF
