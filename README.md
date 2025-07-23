@@ -24,7 +24,8 @@ Pensado para usuarios de GNU/Linux, especialmente en entornos educativos o de of
 🔧 Requisitos:
 
 ```bash
-sudo apt install ghostscript python3-tk
+su root
+apt install ghostscript python3-tk
 ```
 
 ▶️ Ejecutar la aplicación:
@@ -75,7 +76,8 @@ Designed for GNU/Linux users — especially in educational or office settings �
 🔧 Requirements:
 
 ```bash
-sudo apt install ghostscript python3-tk
+su root
+apt install ghostscript python3-tk
 ```
 
 ▶️ Run the application:
