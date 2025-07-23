@@ -33,7 +33,7 @@ apt install ghostscript python3-tk
 ```bash
 git clone https://github.com/quirinux-so/quirinux-compresorpdf.git
 cd quirinux-compresorpdf/usr/local/bin
-python3 compresorpdf.py
+python3 comprimirpdf.py
 ```
 
 📦 Instalación en Quirinux (opcional):
@@ -85,7 +85,7 @@ apt install ghostscript python3-tk
 ```bash
 git clone https://github.com/quirinux-so/quirinux-compresorpdf.git
 cd quirinux-compresorpdf/usr/local/bin
-python3 compresorpdf.py
+python3 comprimirpdf.py
 ```
 
 📦 Install on Quirinux (optional):
