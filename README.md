@@ -1,7 +1,5 @@
 
-<img width="64" height="64" alt="compresorpdf" src="https://github.com/user-attachments/assets/58bcba57-ef85-4af1-b000-2fdf4de4e2f6" />
-
-# Compresor PDF
+# <img width="32" alt="compresorpdf" src="https://github.com/user-attachments/assets/58bcba57-ef85-4af1-b000-2fdf4de4e2f6" /> Compresor PDF
 
 (c) Charlie Martínez – Quirinux GNU/Linux, GPLv2
 
