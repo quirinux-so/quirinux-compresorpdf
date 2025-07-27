@@ -1,84 +1,68 @@
+# Compresor PDF
 
-# <img width="32" alt="compresorpdf" src="https://github.com/user-attachments/assets/58bcba57-ef85-4af1-b000-2fdf4de4e2f6" /> Compresor PDF
+**Autor / Author:** Charlie Martínez – Quirinux GNU/Linux®  
+**Licencia / License:** GPLv2.0
 
-(c) Charlie Martínez – Quirinux GNU/Linux, GPLv2
-
-![compresorpdf](https://github.com/user-attachments/assets/6dab20ee-9023-40bf-a758-704057061609)
-
-## 🇪🇸 Español
-
-**Compresor PDF** es una herramienta gráfica, multilingüe y offline para reducir el tamaño de archivos PDF utilizando **Ghostscript**.
-
-Pensado para usuarios de GNU/Linux, especialmente en entornos educativos o de oficina, permite seleccionar un PDF y generar una copia de peso reducido.
-
-✅ Características:
-
-- Compresión automática de PDFs con Ghostscript  
-- Soporte multilingüe: Español, Gallego, Francés, Alemán, Portugués, Italiano e Inglés  
-- Interfaz gráfica simple con tkinter  
-- Sin conexión a Internet (no requiere pip)  
-- Detecta automáticamente si falta Ghostscript  
-
-🔧 Requisitos:
-
-```bash
-su root
-apt install ghostscript python3-tk
-```
-
-▶️ Ejecutar la aplicación:
-
-```bash
-git clone https://github.com/quirinux-so/quirinux-compresorpdf.git
-cd quirinux-compresorpdf/usr/local/bin
-python3 comprimirpdf.py
-```
-
-📦 Instalación en Quirinux (opcional):
-
-```bash
-su root
-apt install compresorpdf
-```
-
-También disponible desde el **Centro de Software de Quirinux**.  
-🔗 [https://repo.quirinux.org/pool/main/q/compresorpdf](https://repo.quirinux.org/pool/main/c/compresorpdf/)
-
-### ⚠️ Aviso legal
-
-Este proyecto forma parte del ecosistema **Quirinux**, pero es compatible con cualquier distribución moderna de GNU/Linux.
-
-Publicado bajo licencia **GPLv2**.
-
-Autor: Charlie Martínez <cmartinez@quirinux.org>
-
-ℹ️ Más información:  
-🔗 https://www.quirinux.org/aviso-legal
+![Compresor PDF Screenshot](https://github.com/user-attachments/assets/6dab20ee-9023-40bf-a758-704057061609)
 
 ---
 
-## 🇬🇧 English
+## 🧭 Descripción general / Overview
 
-**PDF Compressor** is a graphical, multilingual, and offline tool to reduce PDF file sizes using **Ghostscript**.
+**ES:**  
+`Compresor PDF` es una aplicación gráfica, multilingüe y sin conexión, diseñada para reducir el tamaño de archivos PDF utilizando **Ghostscript**.  
 
-Designed for GNU/Linux users — especially in educational or office settings — it allows you to select a PDF and create a ligthweight version copy.
+Pensada para usuarios de GNU/Linux, especialmente en entornos educativos u oficinas, permite seleccionar un archivo PDF y generar una copia más liviana.
 
-✅ Features:
+**EN:**  
+`PDF Compressor` is a graphical, multilingual, and offline application designed to reduce the size of PDF files using **Ghostscript**.  
 
-- Automatic PDF compression via Ghostscript  
+Designed for GNU/Linux users, especially in educational or office settings, it allows you to select a PDF file and create a lighter copy.
+
+---
+
+## ✔️ Características / Features
+
+**ES:**
+- Compresión automática de PDFs mediante Ghostscript  
+- Interfaz gráfica sencilla basada en tkinter  
+- Soporte multilingüe: Español, Gallego, Francés, Alemán, Portugués, Italiano e Inglés  
+- Detecta si Ghostscript no está instalado y muestra una advertencia  
+- Uso completamente offline (no requiere conexión ni dependencias externas)  
+- Optimizada para sistemas basados en Debian
+
+**EN:**
+- Automatic PDF compression using Ghostscript  
+- Simple GUI based on tkinter  
 - Multilingual interface: Spanish, Galician, French, German, Portuguese, Italian, English  
-- Simple GUI using tkinter  
-- Offline usage (no pip required)  
 - Detects missing Ghostscript and warns the user  
+- Fully offline usage (no internet or pip dependencies required)  
+- Designed for Debian-based systems
 
-🔧 Requirements:
+---
+
+## 📋 Requisitos / Requirements
+
+**ES**  
+Instalar las siguientes dependencias antes de ejecutar:  
+
+**EN:**  
+Install the following dependencies before running:
 
 ```bash
 su root
 apt install ghostscript python3-tk
 ```
 
-▶️ Run the application:
+---
+
+## ▶️ Ejecución / How to Run
+
+**ES:**  
+Aplicación principal:  
+
+**EN:**  
+Main application:
 
 ```bash
 git clone https://github.com/quirinux-so/quirinux-compresorpdf.git
@@ -86,23 +70,38 @@ cd quirinux-compresorpdf/usr/local/bin
 python3 comprimirpdf.py
 ```
 
-📦 Install on Quirinux (optional):
+---
 
-```bash
-su root
-apt install compresorpdf
-```
+## 📦 Instalación alternativa / Optional Installation (Quirinux)
 
-Also available from the **Quirinux Software Center**.  
-🔗 [https://repo.quirinux.org/pool/main/q/compresorpdf](https://repo.quirinux.org/pool/main/c/compresorpdf/)
+**ES:**  
+Disponible como paquete oficial `.deb` desde el repositorio de Quirinux o desde el Centro de Software.
 
-### ⚠️ Legal notice
+**EN:**  
+Available as an official `.deb` package via the Quirinux repository or Software Center.
 
-This project is part of the **Quirinux** ecosystem but compatible with any modern GNU/Linux distribution.
+**Comando / Command:**
 
-Released under the **GPLv2 license**.
+    su root
+    apt install compresorpdf
 
-Author: Charlie Martínez <cmartinez@quirinux.org>
+**Repositorio / Repository:**  
+[https://repo.quirinux.org/pool/main/c/compresorpdf](https://repo.quirinux.org/pool/main/c/compresorpdf)
 
-ℹ️ More info:  
-🔗 https://www.quirinux.org/aviso-legal
+---
+
+## ⚖️ Aviso legal / Legal Notice
+
+**ES:**  
+Este proyecto forma parte del ecosistema **Quirinux**, pero es compatible con cualquier distribución moderna de GNU/Linux.  
+Distribuido bajo los términos de la licencia **GPLv2**.
+
+**EN:**  
+This project is part of the **Quirinux** ecosystem but remains compatible with any modern GNU/Linux distribution.  
+Released under the terms of the **GPLv2 license**.
+
+**Autor / Author:** Charlie Martínez  
+📧 <cmartinez@quirinux.org>
+
+**Más información / More information:**  
+[https://www.quirinux.org/aviso-legal](https://www.quirinux.org/aviso-legal)
